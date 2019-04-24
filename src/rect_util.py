@@ -1,8 +1,3 @@
-﻿#
-# Copyright (c) Microsoft. All rights reserved.
-# Licensed under the MIT license. See LICENSE.md file in the project root for full license information.
-#
-
 import math
   
 class Point(object):
@@ -219,4 +214,3 @@ class Rect(object):
     def __str__( self ):
         return "<Rect (%s,%s)-(%s,%s)>" % (self.left,self.top,
                                         self.right,self.bottom)
-     
